@@ -1,10 +1,11 @@
 [package]
 name = "game_server"
 version = "0.1.0"
-authors = ["Jay Butera <buterajay@gmail.com>"]
+authors = ["Jay Butera <buterajay@gmail.com>", Aleks Pickle <aleks.work2222@gmail.com>]
 edition = "2018"
 
 [dependencies]
 futures = "0.1"
 tokio = "0.1"
 websocket = "0.22.0"
+rand="0.6.5"
